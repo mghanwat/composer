@@ -1,0 +1,19 @@
+{
+    "name": "mghanwat/composer",
+    "description": "Calculator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MANS123",
+            "email": "mghanwat23@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/Calculator.php"],
+        "classmap": ["src/CalculatorClass.php"],
+        "psr-0": {
+            "Product": "src/"
+        }
+    }
+}
